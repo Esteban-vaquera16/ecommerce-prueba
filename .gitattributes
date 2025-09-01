@@ -1,0 +1,14 @@
+# Forzar saltos de línea LF en todos los archivos de texto
+* text=auto eol=lf
+
+# Mantener binarios tal cual
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.mp4 binary
+*.mp3 binary
+*.zip binary
+*.exe binary

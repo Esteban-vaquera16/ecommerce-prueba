@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Card = ({ id, titulo, imagen }) => {
   const navigate = useNavigate();
-  const src = imagen || "/placeholder.png"; // opcional: imagen por defecto
+  const src = imagen || "/assets/react.svg"; 
 
   return (
     <div className="card-producto">

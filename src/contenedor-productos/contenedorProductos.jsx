@@ -15,7 +15,6 @@ const ContenedorProductos = ({ categoria = "", limite = 20 }) => {
         setCargando(true);
         setError("");
 
-        // 👇 elige UNA API, dejo ejemplo DummyJSON
         const base = "https://dummyjson.com/products";
         const url = categoria
           ? `${base}/category/${encodeURIComponent(categoria)}?limit=${limite}`
@@ -30,7 +29,6 @@ const ContenedorProductos = ({ categoria = "", limite = 20 }) => {
         const productosFormateados = lista.map((p) => ({
           id: p.id,
           titulo: p.title,
-          // 👇 imágenes: usa la primera si existe, sino thumbnail
           imagen: (Array.isArray(p.images) && p.images[0]) ? p.images[0] : p.thumbnail,
         }));
 

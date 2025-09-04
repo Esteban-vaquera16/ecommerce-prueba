@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*ESTILOS NAV*/
 .barra-navegacion {
   display: flex;
   justify-content: space-between;
@@ -39,8 +40,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* Links individuales */
 .nav-links li a {
   text-decoration: none;          
   color: #fff;                  
@@ -167,19 +166,19 @@ h1 {
 }
 
 .btn-card:hover {
-  background-color: #2563eb;   /* azul un poco más claro */
-  transform: translateY(-2px); /* pequeño efecto de levantar */
+  background-color: #2563eb;   
+  transform: translateY(-2px); 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn-card:active {
-  background-color: #1e40af;   /* azul más oscuro al clickear */
-  transform: translateY(0);    /* vuelve a su lugar */
+  background-color: #1e40af;   
+  transform: translateY(0);    
   box-shadow: none;
 }
 
 .btn-card:disabled {
-  background-color: #9ca3af;   /* gris */
+  background-color: #9ca3af;   
   cursor: not-allowed;
   box-shadow: none;
 }
